@@ -1,0 +1,27 @@
+{
+  "name": "expense-tracker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akradadiya28/Expense_Tracker.git"
+  },
+  "author": "Arpit Radadiya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akradadiya28/Expense_Tracker/issues"
+  },
+  "homepage": "https://github.com/akradadiya28/Expense_Tracker#readme",
+  "description": "To build a web application that allows users to track their income and expenses, categorize transactions, and generate insightful reports. This application will help users manage their finances effectively.",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "mongoose": "^8.6.0",
+    "nodemon": "^3.1.4"
+  }
+}
